@@ -4,25 +4,37 @@
 #first go to https://github.com/fishstoryyy/airg_quant
     - in this page, you shall see a green button named "clone or download"
     - click the button
-    - copy the http link : https://github.com/fishstoryyy/airg_quant.git
-
+    - copy the http link : https://github.com/fishstoryyy/AIRG_Quant_Research_Reference.git
+      - (you can just copy the git command below)
+      
 #Second, open your terminal and change your directory to Desktop (or elsewhere)
     - by using the command : cd ~/Desktop
-    - next, in terminal, enter : 
-        git clone https://github.com/fishstoryyy/airg_quant.git
+    - next, in terminal, enter: 
+    
+        git clone https://github.com/fishstoryyy/AIRG_Quant_Research_Reference.git
+        
     - you shall now see a folder named airg_quant on your desktop
-    - you may use unix command : cd airg_quant
+    - you may use unix command : 
+    
+        cd AIRG_Quant_Research_Reference
+    
     - OR simply open the folder to check what's inside(nothing useful so far though)
 
-#To get the latest project version:
+# IMPORTANT!!!
+#To get the latest project version OR before making any changes that you wish to COMMIT LATER,
+    always pull down the latest version of the repo.
     - in your terminal, use cd command to change your directory to airg_quant
-        cd ~/Desktop/airg_quant     - if u follow my above steps
+    
+        cd ~/Desktop/AIRG_Quant_Research_Reference     ##if u follow my above steps
+        
     - then enter:
+    
         git pull
+        
     - done
 
+#
 PS:
-
 Above are instructions for MAC users. 
-Windows Part will get updated next Wednesday. 
-Some other useful techniques/commands will be incorporated in the future.
+Windows Part will get updated next Wednesday or sooner. 
+Some other useful techniques/commands will be incorporated in the future:-)
